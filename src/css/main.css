@@ -1,0 +1,23 @@
+.center-block {
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+body {
+	margin-top: 70px;
+}
+
+.font20 {
+	font-size: 20px;
+}
+
+.font21 {
+	font-size: 17px;
+	margin-top: 3px;
+}
+
+.done {
+	text-decoration: line-through;
+	checked: true;
+}
