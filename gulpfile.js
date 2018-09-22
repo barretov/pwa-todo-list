@@ -75,9 +75,9 @@ gulp.task('sworker', function() {
 gulp.task('server', function() {
 	connect.server({
 	    root: ['build'],
-	    // https: true,
+	    https: false,
 	    livereload: true,
-	    port: 443,
+	    port: 8080,
 	})
 });
 
